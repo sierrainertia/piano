@@ -1,0 +1,32 @@
+body {
+  font-size: 18px;
+}
+
+.wrapper {
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.keys {
+  height: 400px;
+  background-color: #b9bcbc;
+  border: 5px solid #b9bcbc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 320px;
+  background-color: #fefffb;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 70px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
