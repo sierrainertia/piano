@@ -9,24 +9,35 @@ body {
 }
 
 .keys {
-  height: 400px;
-  background-color: #b9bcbc;
-  border: 5px solid #b9bcbc;
+  height: 440px;
+  background-color: tomato;
+  box-shadow: 10px 5px 5px #424341;
   border-radius: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .key {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 320px;
+  height: 310px;
   background-color: #fefffb;
-  margin-top: 70px;
-  margin-bottom: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
   width: 70px;
+  border: 3px solid black;
   border-radius: 15px;
   text-align: center;
   padding: 5px;
+  z-index: 1;
+}
+
+.keyBlack {
+  background-color: black;
+  height: 200px;
+  width: 70px;
+  margin-top: 100px;
+  border-radius: 15px;
+  z-index: 2;
 }
